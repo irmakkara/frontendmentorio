@@ -1,6 +1,6 @@
 /**
  * @class HttpService
- * A simple service class to send HTTP requests (GET, POST, PUT, DELETE).
+ * A simple service class to send HTTP requests.
  */
 
 // -- HTTP Request and Response -- 
