@@ -1,0 +1,120 @@
+	/*
+	* Styles of the Advice Generator API project.
+	*/
+	
+	body {
+		background-color: hsl(218, 23%, 16%);
+		color: hsl(193, 38%, 86%);
+		margin: 0;
+		min-height: 100vh;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	.advicecontainer{
+		font-family: 'Manrope', sans-serif;
+		background-color: hsl(217, 19%, 24%);
+		text-align: center;
+		padding: 40px 1.5rem 80px;
+		border-radius: 15px;
+		max-width: 540px;
+		width: 90vw;
+		margin-top: auto;
+		margin-bottom: auto;
+		position: relative;
+		box-sizing: border-box;
+	}
+
+	.divider {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+	}
+
+	.divider picture {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+
+	.divider picture img {
+		max-width: 100%;
+		width: auto;
+		height: auto;
+		display: block;
+	}
+	
+	.advice_number{
+		color: hsl(150, 100%, 66%);
+		font-size: 14px;
+		letter-spacing: 2px;
+		margin-bottom: 20px;
+	}
+	
+	.advice_text{
+		color: hsl(193, 38%, 86%);
+		font-size: 28px;
+		font-weight: 800;
+		display: block;
+		margin-bottom: 25px;
+	}
+
+	.disabledButton {
+		cursor: wait;
+	}
+	
+	.diceButton {
+		width: 64px;
+		height: 64px;
+		border: none;
+		border-radius: 50%;
+		background-color: hsl(150, 100%, 66%);
+		display: flex;
+		position: absolute;
+		justify-content: center;
+		align-items: center;
+		transition: background-color 0.3s ease, box-shadow 0.3s ease;
+		left: 50%;
+		bottom: -32px;
+		transform: translateX(-50%);
+	}
+
+	.diceButton img {
+		max-width: 100%;
+		height: auto;
+		display: block;
+	}
+
+	.diceButton:hover {
+		background-color: hsl(150, 100%, 67%);
+		box-shadow: 0 0 30px hsl(150, 100%, 66%);
+	}
+
+	@media (max-width: 400px) {
+		.advicecontainer {
+    		padding: 30px 20px 70px;
+  		}
+
+  		.advice_text {
+    		font-size: 22px;
+  		}
+
+		.advice_number {
+			font-size: 12px;
+		}
+	}
+
+	.attribution { 
+		font-size: 11px;
+		text-align: center;
+		margin-top: auto;
+		padding: 15px 0;
+		width: 100%;
+	}
+
+	.attribution a {
+		color: hsl(228, 45%, 44%);
+	}
+	
