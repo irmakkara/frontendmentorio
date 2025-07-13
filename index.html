@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Advice generator app</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet">
+  <link link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class = "advicecontainer">
+		<p class = "advice_number">ADVICE #<span id = "spanAdviceID" class="advice_id">117</span></p>
+		<p id = "adviceTextID" class = "advice_text"> “It is easy to sit up and take notice, what's difficult is getting up and taking action.” </p>
+		<div class = "divider">
+				<picture>
+					<source media="(max-width: 376px)" srcset="./images/pattern-divider-mobile.svg">
+					<img src="./images/pattern-divider-desktop.svg">
+				</picture>
+		</div>
+		<button id="dice_button" class="diceButton">
+			<img src="./images/icon-dice.svg" alt="dice icon">
+		</button>
+	</div>
+	
+	<div class="attribution">
+		Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+		Coded by <a href="https://github.com/irmakkara">Irmak Kara</a>.
+	</div>
+
+    <script src="httpService.js"></script>
+	<script src="script.js"></script>
+
+</body>
+</html>
